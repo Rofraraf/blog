@@ -56,6 +56,14 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Fechas*/
+.fecha{
+    font-size: 0.9em;
+    color: #6b4226;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
 /* Secciones */
 
 section  {
