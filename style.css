@@ -56,6 +56,14 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+    main {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
 /* Fechas*/
 .fecha {
     font-size: 0.9em;
@@ -64,37 +72,43 @@ main {
     font-style: italic;
 }
 
+/* Marco de imagenes */ 
 .marco-imagen {
-    border: 2px solid #6b4226;
-    padding: 10px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 20px auto;
+    border: 2px solid #6b4226;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+    .marco-imagen {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 10px;
+        border: 2px solid #6b4226;
+    }
 }
 
 @media (max-width: 768px) {
     .marco-imagen{
         width: 100vw;
         height: auto;
-        padding: 0;
-        border: none;
-        margin: 0;
+        padding: 10px;
+        border: 2px solid #6b4226;
+        margin: 20px auto;
         object-fit: cover;
     }
-}
+} 
 
 /* Imagen */
 img {
-    display: block;
+    /*display: block;*/
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    img.marco-imagen {
-        margin: 0;
-    }
-}
 
 /* Textos */
 .justificado {
@@ -134,8 +148,5 @@ footer {
     background-color: #A47551;
     color: white;
     padding: 20px 0;
-    /*position: fixed;
-    width: 100%;
-    bottom: 0;*/
     margin-top: 40px;
 }
