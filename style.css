@@ -81,6 +81,12 @@ main {
     margin: 20px auto;
 }
 
+@media (max-width:768px) {
+    .marco-imagen{
+        max-width: 90%;
+    }
+}
+
 /* Imagen */
 img {
     display: block;
