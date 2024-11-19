@@ -64,11 +64,20 @@ main {
     font-style: italic;
 }
 
-/* Marco imagenes */
+/* Marco imagenes 
 .marco-imagen {
     border: 2px solid #6b4226;
     padding: 10px;
     max-width: fit-content;
+    margin: 20px auto;
+}*/
+
+.marco-imagen {
+    border: 2px solid #6b4226;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
     margin: 20px auto;
 }
 
