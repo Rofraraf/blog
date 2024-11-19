@@ -64,14 +64,6 @@ main {
     font-style: italic;
 }
 
-/* Marco imagenes 
-.marco-imagen {
-    border: 2px solid #6b4226;
-    padding: 10px;
-    max-width: fit-content;
-    margin: 20px auto;
-}*/
-
 .marco-imagen {
     border: 2px solid #6b4226;
     padding: 10px;
@@ -81,9 +73,14 @@ main {
     margin: 20px auto;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .marco-imagen{
-        max-width: 90%;
+        width: 100vw;
+        height: auto;
+        padding: 0;
+        border: none;
+        margin: 0;
+        object-fit: cover;
     }
 }
 
@@ -91,6 +88,12 @@ main {
 img {
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    img.marco-imagen {
+        margin: 0;
+    }
 }
 
 /* Textos */
