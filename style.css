@@ -105,14 +105,16 @@ main {
 
 /* Imagen */
 img {
-    /*display: block;*/
     margin: 0 auto;
 }
 
 
 /* Textos */
 .justificado {
+    font-style: italic;
+    font-size: medium;
     text-align: justify;
+
 }
 /* Secciones */
 
@@ -141,6 +143,16 @@ a:hover {
     color: #8C5E3C;
 }
 
+/* Leer mas*/
+.leer-mas{
+    color: #8C5E3C;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.leer-mas:hover{
+    color: #6b4226
+}
 /* Pie de pagina */
 
 footer {
