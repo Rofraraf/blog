@@ -111,7 +111,7 @@ img {
 
 /* Textos */
 .justificado {
-    font-style: italic;
+    /*font-style: italic;*/
     font-size: medium;
     text-align: justify;
 
