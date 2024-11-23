@@ -62,6 +62,14 @@ main {
         padding: 0;
         max-width: 100%;
     }
+
+    body {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
 }
 
 /* Fechas*/
@@ -111,7 +119,6 @@ img {
 
 /* Textos */
 .justificado {
-    /*font-style: italic;*/
     font-size: medium;
     text-align: justify;
 
@@ -144,17 +151,17 @@ a:hover {
 }
 
 /* Leer mas*/
-.leer-mas{
+.leer-mas {
     color: #8C5E3C;
     text-decoration: underline;
     font-weight: bold;
 }
 
-.leer-mas:hover{
+.leer-mas:hover {
     color: #6b4226
 }
-/* Pie de pagina */
 
+/* Pie de pagina */
 footer {
     text-align: center;
     background-color: #A47551;
