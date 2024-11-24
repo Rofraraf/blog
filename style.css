@@ -227,10 +227,12 @@ a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 .suscripcion-boton:hover {
-    background-color: #8C5E3C;
+    background-color: #ca8554;
 }
 
 /* Pie de pagina */
@@ -250,5 +252,16 @@ footer {
     border-radius: 50%;
     vertical-align: middle;
     background-color: #c13584;
+}
+
+.instagram-link {
+    color: #C13584; /* Color típico de Instagram */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.instagram-link:hover {
+    color: #9C2E6D; /* Un tono más oscuro para el hover */
+    text-decoration: none;
 }
 
