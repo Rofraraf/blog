@@ -12,7 +12,7 @@ header {
     background-color: #A47551;
     color: white;
     text-align: center;
-    padding: 50px 20PX;
+    padding: 50px 20px;
     background-image: url('images/encabezado.jpg');
     background-size: cover;
     background-position: center;
@@ -21,7 +21,7 @@ header {
 /* Titulo principal del encabezado */
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: 'Georgia', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -56,19 +56,40 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Textos */
+.justificado {
+    font-size: medium;
+    text-align: justify;
+
+}
+/* Secciones */
+
+section  {
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.8;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
 @media (max-width: 768px) {
     main {
-        margin: 0;
-        padding: 0;
+        margin: 10;
+        padding: 10;
         max-width: 100%;
     }
 
     body {
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 
     h2 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     p{
@@ -106,7 +127,7 @@ main {
 
 @media (max-width: 768px) {
     .marco-imagen{
-        width: 100vw;
+        width: 100%;
         height: auto;
         padding: 10px;
         border: 2px solid #6b4226;
@@ -119,6 +140,18 @@ main {
 img {
     margin: 0 auto;
 }
+
+/* Leer mas*/
+.leer-mas {
+    color: #8C5E3C;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.leer-mas:hover {
+    color: #6b4226
+}
+
 
 /* Imagen modal */
 .modal {
@@ -169,26 +202,6 @@ img {
     cursor: pointer;
 }
 
-/* Textos */
-.justificado {
-    font-size: medium;
-    text-align: justify;
-
-}
-/* Secciones */
-
-section  {
-    margin-bottom: 20px;
-}
-
-section p {
-    line-height: 1.8;
-}
-
-section img {
-    max-width: 100%;
-    border-radius: 5px;
-}
 
 /* Enlaces */
 
@@ -202,16 +215,26 @@ a:hover {
     color: #8C5E3C;
 }
 
-/* Leer mas*/
-.leer-mas {
-    color: #8C5E3C;
-    text-decoration: underline;
-    font-weight: bold;
+/* Video Marco */
+.marco-video {
+    width: 60%;
+    max-width: 500px; /* Ajusta según el ancho deseado, menor para que no se salga tanto */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #6b4226; /* Similar al borde de las imágenes */
+    border-radius: 8px; 
+    box-sizing: border-box;
 }
 
-.leer-mas:hover {
-    color: #6b4226
+@media (max-width: 768px) {
+    .marco-video {
+        width: 80%; /* Ajustar a todo el ancho disponible */
+        max-width: 400px;
+        padding: 0;
+    }
 }
+
 
 /*Suscripción */
 
@@ -231,6 +254,7 @@ a:hover {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .suscripcion-boton:hover {
     background-color: #ca8554;
 }
@@ -261,7 +285,7 @@ footer {
 }
 
 .instagram-link:hover {
-    color: #9C2E6D; /* Un tono más oscuro para el hover */
+    color: #9C2E6D; 
     text-decoration: none;
 }
 
