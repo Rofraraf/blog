@@ -218,7 +218,7 @@ a:hover {
 /* Video Marco */
 .marco-video {
     width: 60%;
-    max-width: 500px; /* Ajusta según el ancho deseado, menor para que no se salga tanto */
+    max-width: 300px; /* Ajusta según el ancho deseado, menor para que no se salga tanto */
     height: auto;
     display: block;
     margin: 20px auto;
